@@ -1,0 +1,93 @@
+.dashbord-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashbord-week-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dashbord-heading {
+  font-size: 20px;
+}
+.dashbord-screen {
+  display: flex;
+  flex-direction: column;
+}
+.dashbord-human-image {
+  height: 430px;
+  width: 250px;
+  padding: 10px;
+}
+
+.dashboard-human-organs-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  width: 70vw;
+}
+.dashbord-organs-section {
+  padding: 20px;
+
+  width: 60vw;
+  display: flex;
+
+  flex-direction: column;
+}
+.lungs {
+  background-color: #f5f8ff;
+  margin: 10px;
+  width: 160px;
+  height: 155px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+.dashbord-human-container {
+  background-color: #f5f8ff;
+  padding: 10px;
+  border-radius: 9px;
+}
+
+@media (max-width: 768px) {
+  .dashbord-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .dashbord-week-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .dashboard-human-organs-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .dashbord-organs-section {
+    width: 100%;
+    padding: 10px;
+  }
+  .dashbord-human-image {
+    width: 150px;
+    height: auto;
+    padding: 5px;
+  }
+  .dashbord-heading {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashbord-heading {
+    font-size: 16px;
+  }
+  .lungs {
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+  }
+}

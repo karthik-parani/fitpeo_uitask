@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.sliderbar-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .sliderbar-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    font-size: 0.85rem;
+  }
+  .sliderbar-item {
+    font-size: 0.8rem;
+  }
+}

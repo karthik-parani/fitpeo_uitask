@@ -1,0 +1,47 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  
+  background-color: #ffffff;
+}
+
+.home-container {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar-container {
+  width: 190px;
+  background-color: #f5f8ff;
+  margin: 10px;
+
+  border-radius: 10px;
+}
+
+.content-row {
+  flex: 1;
+  display: flex;
+  gap: 15px;
+  margin: 15px 15px 15px 0;
+  
+}
+
+.dashboard-container {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 20px;
+  overflow-y: auto;
+
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.appointments-container {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
