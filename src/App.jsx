@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./components/header/Header";
+import Header from "./components/header/header";
 import Sidebar from "./components/sidebar/Sidebar";
 import Dashbord from "./components/dashbord/DashbordScreen";
 import Appointments from "./components/appointments/AppointmentsScreen";
