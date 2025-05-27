@@ -3,8 +3,8 @@ import "./ScheduleDashboard.css";
 import { FaTooth, FaDumbbell } from "react-icons/fa";
 import { GiSyringe, GiHeartOrgan, GiBrain } from "react-icons/gi";
 import { MdRemoveRedEye } from "react-icons/md";
-import { appointmentsData } from "../../data/appointments";
-import { currentAppointments, upcomingSchedule } from "../../data/healthData";
+import { appointmentsData } from "../../data/Appointments";
+import { currentAppointments, upcomingSchedule } from "../../data/HealthData";
 
 const ScheduleDashboard = () => {
   return (
